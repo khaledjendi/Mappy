@@ -23,8 +23,8 @@ jar -cvf topen.jar -C topten_classes/.
 ## Execute
 $HADOOP_HOME/bin/hadoop jar topten.jar topten.TopTen topten_input
 
------- Output of the application ----
-## The output is saved to hbase table topten. If we scan it after a run we get:
+## Output
+The output is saved to hbase table topten. If we scan it after a run we get:
 
 ROW                                                          COLUMN+CELL                                                                                                                                                                      
  108                                                         column=info:id, timestamp=1536305084537, value=108                                                                                                                               
